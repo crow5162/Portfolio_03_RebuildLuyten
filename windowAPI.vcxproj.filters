@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GgaetIp">
+      <UniqueIdentifier>{8d4a99e2-c92b-48c1-831b-61b12c065499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\Component">
+      <UniqueIdentifier>{70bd3faf-8721-4c38-8b6d-cdd2a179ac87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\SingleTone">
+      <UniqueIdentifier>{c20db95c-fe68-4e4b-8a71-0640c0beceb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\Math">
+      <UniqueIdentifier>{44404bb4-c07f-4eea-a140-181d68a7d3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\Debug">
+      <UniqueIdentifier>{058eca21-7398-4ba5-a7be-5eddda573478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\ImGui">
+      <UniqueIdentifier>{87ef450c-0061-4086-9304-a6b153486895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\SingleTone\DirectX">
+      <UniqueIdentifier>{e8d17f6b-67db-4884-9f83-dcea459810b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\UI">
+      <UniqueIdentifier>{68397be1-4ec7-4e76-8aa8-d12ed3ba8673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{71edf341-557a-4556-af44-05ebbe7daae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GgaetIp\Component\Draw">
+      <UniqueIdentifier>{3c398f85-9ef5-4bbc-b0be-47c7c2f5441f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{72a9028a-aa12-40f1-91a2-908157fb1746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\UI Button">
+      <UniqueIdentifier>{3dd659da-dac5-4ecb-8dea-88a89caed4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObserverPattern">
+      <UniqueIdentifier>{35cbe1b7-b7e2-45f2-821a-0f642c2a7878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Achievement">
+      <UniqueIdentifier>{b60225e2-3dd2-4e55-9cd3-6f814913f38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AStar">
+      <UniqueIdentifier>{ee820338-04e5-4015-8604-04623cc06bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Construction">
+      <UniqueIdentifier>{cf6f735d-c9c7-47b5-880d-db4efef6db84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Camera">
+      <UniqueIdentifier>{35914010-8173-43f1-bbd3-e6b1cfd7d4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Map">
+      <UniqueIdentifier>{e119033b-5dfb-4bca-8c30-072f90f3dc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Achievement\UI">
+      <UniqueIdentifier>{117f1192-ff7a-4fe9-8f3e-8e335d0b5987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Mouse">
+      <UniqueIdentifier>{b1394a13-e61e-48bf-9367-caae9ff80e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Construction\Default">
+      <UniqueIdentifier>{55bd3213-5880-4f7a-9d01-016dd6b730f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Construction\New">
+      <UniqueIdentifier>{a8207c29-0e25-40ea-84e0-75ca8dfa9f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\Tutorial">
+      <UniqueIdentifier>{2281331d-3ea4-4eea-ac77-54ee41bcd830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\ControlCenter">
+      <UniqueIdentifier>{aaa19b98-a1da-40f6-8419-05394f3c71e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\UI Panel">
+      <UniqueIdentifier>{fede9c62-bd4c-41e6-9bd3-26c647d3d68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Crafting">
+      <UniqueIdentifier>{77d28e22-e703-41cd-a3bc-aaf5f38c8834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Worker">
+      <UniqueIdentifier>{53b06dfe-30f5-40a7-941c-15603c761068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Construction\Expansion">
+      <UniqueIdentifier>{d1ba177b-3e73-4b57-a0aa-2aed54e6107a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Construction\Expansion\UI">
+      <UniqueIdentifier>{273c4429-8a45-43b8-b7af-514bb4923b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\SceneButton">
+      <UniqueIdentifier>{0f94e0b2-9cf7-41f3-987c-b247385ded71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Inventory">
+      <UniqueIdentifier>{bfcda2c8-09c9-4bcb-9b43-8af79735ca24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTransition.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTransition.hpp">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="GgaetIp.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.hpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>GgaetIp\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundListenerManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x2.h">
+      <Filter>GgaetIp\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>GgaetIp\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>GgaetIp\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>GgaetIp\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>GgaetIp\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCallBack.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="RayHit.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>GgaetIp\SingleTone\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2D.h">
+      <Filter>GgaetIp\SingleTone\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiWindow.h">
+      <Filter>GgaetIp\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiButton.h">
+      <Filter>GgaetIp\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>GgaetIp\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiText.h">
+      <Filter>GgaetIp\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawComponent.h">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonDraw.h">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>소스 파일\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>소스 파일\ObserverPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="WcDoneButton.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievement.h">
+      <Filter>소스 파일\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="AchievementBox.h">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>소스 파일\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingComponent.h">
+      <Filter>소스 파일\Construction</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>소스 파일\Construction</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingManager.h">
+      <Filter>소스 파일\Construction</Filter>
+    </ClInclude>
+    <ClInclude Include="CitizenAnimation.h">
+      <Filter>소스 파일\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMove.h">
+      <Filter>소스 파일\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePick.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingInfo.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructionTimeBar.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="FixButton.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoBox.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoSpriteAndText.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadButton.h">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClInclude>
+    <ClInclude Include="TileCheck.h">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClInclude>
+    <ClInclude Include="NewBuilding.h">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GgaetIp</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkButton.h">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NotificationBox.h">
+      <Filter>소스 파일\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlCamera.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBuilding.h">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="PageButton.h">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceControl.h">
+      <Filter>소스 파일\UI\ControlCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusMinusButton.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalWorker.h">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowWorker.h">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerPanel.h">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerControlManager.h">
+      <Filter>소스 파일\UI\ControlCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftButton.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftInfo.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftSpriteAndText.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftTimeBar.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>소스 파일\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>소스 파일\UI\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="LotExpansion.h">
+      <Filter>소스 파일\Construction\Expansion</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmButton.h">
+      <Filter>소스 파일\Construction\Expansion\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBox.h">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClInclude>
+    <ClInclude Include="CitizenTalk.h">
+      <Filter>소스 파일\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoAndTitleScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialExitButton.h">
+      <Filter>소스 파일\Scene\SceneButton</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartButton.h">
+      <Filter>소스 파일\Scene\SceneButton</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInAndOut.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPopulationScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBackground.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingIcon.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowGameTutorialButton.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeBar.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="WkSetDoneButton.h">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingPanel.h">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryData.h">
+      <Filter>소스 파일\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>소스 파일\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftBox.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftResult.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkArea.h">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerAnimation.h">
+      <Filter>소스 파일\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerMove.h">
+      <Filter>소스 파일\Worker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="windowAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTransition.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>GgaetIp\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundListenerManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x2.cpp">
+      <Filter>GgaetIp\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>GgaetIp\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>GgaetIp\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>GgaetIp\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>GgaetIp\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCallBack.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="RayHit.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>GgaetIp\SingleTone\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2D.cpp">
+      <Filter>GgaetIp\SingleTone\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>GgaetIp\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiWindow.cpp">
+      <Filter>GgaetIp\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiButton.cpp">
+      <Filter>GgaetIp\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiText.cpp">
+      <Filter>GgaetIp\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawComponent.cpp">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonDraw.cpp">
+      <Filter>GgaetIp\Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>GgaetIp\SingleTone</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>소스 파일\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>소스 파일\ObserverPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="WcDoneButton.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement.cpp">
+      <Filter>소스 파일\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementBox.cpp">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>소스 파일\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingComponent.cpp">
+      <Filter>소스 파일\Construction</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>소스 파일\Construction</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingManager.cpp">
+      <Filter>소스 파일\Construction</Filter>
+    </ClCompile>
+    <ClCompile Include="CitizenAnimation.cpp">
+      <Filter>소스 파일\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMove.cpp">
+      <Filter>소스 파일\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePick.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingInfo.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructionTimeBar.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="FixButton.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoBox.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoSpriteAndText.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadButton.cpp">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClCompile>
+    <ClCompile Include="TileCheck.cpp">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBuilding.cpp">
+      <Filter>소스 파일\Construction\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="NewBuilding.cpp">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>GgaetIp</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkButton.cpp">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificationBox.cpp">
+      <Filter>소스 파일\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlCamera.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="PageButton.cpp">
+      <Filter>소스 파일\Achievement\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceControl.cpp">
+      <Filter>소스 파일\UI\ControlCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusMinusButton.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalWorker.cpp">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowWorker.cpp">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerPanel.cpp">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerControlManager.cpp">
+      <Filter>소스 파일\UI\ControlCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftButton.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftInfo.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftSpriteAndText.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftTimeBar.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>소스 파일\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>소스 파일\UI\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="LotExpansion.cpp">
+      <Filter>소스 파일\Construction\Expansion</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmButton.cpp">
+      <Filter>소스 파일\Construction\Expansion\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBox.cpp">
+      <Filter>소스 파일\Construction\New</Filter>
+    </ClCompile>
+    <ClCompile Include="CitizenTalk.cpp">
+      <Filter>소스 파일\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoAndTitleScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialExitButton.cpp">
+      <Filter>소스 파일\Scene\SceneButton</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStartButton.cpp">
+      <Filter>소스 파일\Scene\SceneButton</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeInAndOut.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPopulationScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBackground.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingIcon.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowGameTutorialButton.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeBar.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="WkSetDoneButton.cpp">
+      <Filter>소스 파일\UI\UI Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingPanel.cpp">
+      <Filter>소스 파일\UI\UI Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryData.cpp">
+      <Filter>소스 파일\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftBox.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftResult.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkArea.cpp">
+      <Filter>소스 파일\Crafting</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerAnimation.cpp">
+      <Filter>소스 파일\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerMove.cpp">
+      <Filter>소스 파일\Worker</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
